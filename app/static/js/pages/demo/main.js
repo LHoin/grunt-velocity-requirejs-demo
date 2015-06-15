@@ -1,7 +1,3 @@
 'use strict';
 
-require([
-	'common/lib'
-  ], function() {
-  	require(['pages/demo/index']);
-});
+require(['pages/demo/index']);

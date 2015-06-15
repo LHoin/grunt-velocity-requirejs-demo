@@ -156,7 +156,9 @@ module.exports = function (grunt) {
     rev: require('./config/grunt/rev'),
 
     // 删除已经打包的requirejs插件资源文件
-    removeCombined: require('./config/grunt/removeCombined')
+    removeCombined: require('./config/grunt/removeCombined'),
+		
+    replace: require('./config/grunt/replace')
 
   };
 
@@ -214,6 +216,7 @@ module.exports = function (grunt) {
     'autoprefixer:dist',
     'concat',
     'requirejs',
+	'replace',
     'removeCombined',
     'uglify',
     'cssmin',

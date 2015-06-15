@@ -47,6 +47,8 @@ var require = {
   }
 };
 
+/* _bundles_position */
+
 if ( typeof module === 'object' && typeof module.exports === 'object' ) {
   module.exports = {
     paths: require.paths,
